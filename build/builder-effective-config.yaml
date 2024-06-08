@@ -1,0 +1,13 @@
+directories:
+  output: build
+  buildResources: build
+appId: inventory.manager
+files:
+  - filter:
+      - dist/**/*
+      - public/**/*
+      - build/**/*
+      - node_modules/**/*
+win:
+  target: nsis
+electronVersion: 29.2.0
